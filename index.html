@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<link rel="stylesheet" href="style.css">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+				
+				
+</head>
+<body>
+			<header id="header">
+							<img class="logo"src="logo.png" alt="">
+							<div id="toggle"></div>
+							<div id="navbar">
+											<ul>
+															<li><a href="#home">Home</a></li>
+															<li><a href="#about">About</a></li>
+															<li><a href="#downloads">Downloads</a></li>
+															<li><a href="#contact">Contact</a></li>
+											</ul>
+							</div>
+			</header>	
+			
+			<section id="home">
+		
+			</section>
+			<section id="about"">
+							
+			</section>
+			<section id="downloads">
+							<a href="https://freefire.onelink.me/Io8U/fa1aa611" download> FREEFIRE V 1.71.0</a>
+			</section>
+			<section id="contact">
+							
+			</section>
+			
+		b
+
+
+			<script type="text/javascript" charset="utf-8">
+							const header=document.getElementById('header');
+							const toggle=document.getElementById('toggle');
+							const navbar=document.getElementById('navbar');
+							
+							
+							document.onclick=function(e) {
+											if(e.target.id !== 'header'&& e.target.id !== 'toggle' && e.target.id !== 'navbar'){
+											toggle.classList.remove('active');
+											navbar.classList.remove('active');
+															
+											}
+								}
+							
+							toggle.onclick=function() {
+											toggle.classList.toggle('active');
+											navbar.classList.toggle('active');
+										
+										
+							}
+		 </script>	 
+</body>
+</html>
